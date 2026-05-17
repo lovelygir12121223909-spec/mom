@@ -1,0 +1,6 @@
+# Create a file called bendy.txt with some content
+with open("bendy.txt", "w") as file:
+    file.write("This is a Bendy file!\n")
+    file.write("Maybe for BATIM mods or notes.")
+
+print("File 'bendy.txt' created successfully!")
